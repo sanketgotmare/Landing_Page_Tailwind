@@ -7,8 +7,8 @@ function App() {
     <>
       <div className="bg-amber-50 min-h-screen px-4 py-3 flex flex-col gap-16" >
       <Header/>
-      <Footer/>
       <Body/>
+      <Footer/>
       </div>
     </>
   )
