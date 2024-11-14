@@ -2,26 +2,29 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='flex flex-col gap-12'>
+    
+      <div className='flex flex-col gap-12 md:flex-row md:justify-between'>
       <ul className='flex gap-6 font-lato text-gray-400'>
+
         <li>
-        <a href="*">Facebook</a>
+          <a href="#">Facebook</a>
         </li>
         <li>
-        <a href="*">Instagram</a>
+          <a href="#">Instagram</a>
         </li>
         <li>
-        <a href="*">Twitter</a>
+          <a href="#">Twitter</a>
         </li>
-        </ul>
+      </ul>
         <div className='flex gap-2'>
-          <img src="./assets/Help-Avatar.svg" alt="help" />
-          <div>
-            <p className='font-playfair font-thin'>Have a Question</p>
-            <a href="*" className='font-lato font-medium'>Talk to a specalist</a>
-          </div>
+          <img src="./assets/Help-Avatar.svg" alt="lg" />
+           <div >
+            <p className='font-playfair font-thin'>Have any Questions?</p>
+            <a href="#" className='font-lato font-medium'>Talk to a specialist!</a>
+           </div>
         </div>
-    </div>
+      </div>
+    
   )
 }
 
